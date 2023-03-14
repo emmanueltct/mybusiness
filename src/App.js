@@ -1,14 +1,19 @@
 
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Home  from './components/pages/Home';
+import About from './components/pages/About';
+import Contact  from './components/pages/Contact';
+import Mybusiness from './components/pages/Mybusiness';
 import Button from 'react-bootstrap/Button';
 
 function App() {
   return (
-    <div className="App">
-      <h1>this to test bootstrap in react js</h1>
-      <Button variant='primary'> Say hello</Button>
+    <div>
+      <Home/>
+      <About/>
+      <Contact/>
+      <Mybusiness/>
     </div>
+    
   );
 }
 
